@@ -5,6 +5,8 @@ STRIPE_SUCCESS_URL=http://www.ignewsdifrance.netlify.app/posts
 STRIPE_CANCEL_URL=http://www.ignewsdifrance.netlify.app
 STRIPE_WEBHOOK_SECRET=whsec_9mZ3qWODraqWSiYmUynDrx3JPsAuOcmr
 
+#NextAuth_url
+NEXTAUTH_URL=https://www.ignewsdifrance.netlify.app
 
 #GitHub
 GITHUB_CLIENT_ID=4d54edb981ebd951d941
