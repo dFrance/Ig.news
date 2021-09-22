@@ -52,7 +52,7 @@ export default function Posts({ post }: PostPreviewProps) {
 export const getStaticPaths = () => {
     return {
         paths: [],
-        fallback: 'blocking'
+        fallback: 'false'
     } 
 }
 
