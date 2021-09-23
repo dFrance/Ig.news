@@ -1,4 +1,4 @@
-import { GetStaticProps } from "next"
+import { GetStaticPaths, GetStaticProps } from "next"
 import { getSession, useSession } from "next-auth/client";
 import Head from "next/head";
 import Link from "next/link";
@@ -49,10 +49,10 @@ export default function Posts({ post }: PostPreviewProps) {
     )
 }
 
-export const getStaticPaths = () => {
+export const getStaticPaths: GetStaticPaths = async () => {
     return {
         paths: [],
-        fallback: 'true'
+        fallback: true,
     } 
 }
 
